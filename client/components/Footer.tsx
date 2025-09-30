@@ -1,4 +1,12 @@
-import { Phone, Mail, MessageCircle, Facebook, Twitter, Instagram, Youtube } from 'lucide-react';
+import {
+  Phone,
+  Mail,
+  MessageCircle,
+  Facebook,
+  Twitter,
+  Instagram,
+  Youtube,
+} from "lucide-react";
 
 export default function Footer() {
   return (
@@ -8,7 +16,9 @@ export default function Footer() {
           {/* Company Info */}
           <div className="space-y-4">
             <h3 className="text-lg font-bold font-poppins">Cebu Pacific</h3>
-            <p className="text-gray-300 font-montserrat text-sm">Your Journey. Our Passion.</p>
+            <p className="text-gray-300 font-montserrat text-sm">
+              Your Journey. Our Passion.
+            </p>
             <div className="flex space-x-4">
               <Facebook className="w-4 h-4 text-blue-400" />
               <Twitter className="w-4 h-4 text-blue-400" />
@@ -19,12 +29,42 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div className="space-y-4">
-            <h4 className="text-base font-semibold font-montserrat">Quick Links</h4>
+            <h4 className="text-base font-semibold font-montserrat">
+              Quick Links
+            </h4>
             <ul className="space-y-2 text-sm font-montserrat">
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Book a Flight</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Manage Booking</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Check-in</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Flight Status</a></li>
+              <li>
+                <a
+                  href="#"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
+                  Book a Flight
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
+                  Manage Booking
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
+                  Check-in
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
+                  Flight Status
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -32,10 +72,38 @@ export default function Footer() {
           <div className="space-y-4">
             <h4 className="text-base font-semibold font-montserrat">Support</h4>
             <ul className="space-y-2 text-sm font-montserrat">
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Contact Us</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Help Center</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Travel Advisories</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Feedback</a></li>
+              <li>
+                <a
+                  href="#"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
+                  Contact Us
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
+                  Help Center
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
+                  Travel Advisories
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
+                  Feedback
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -43,10 +111,38 @@ export default function Footer() {
           <div className="space-y-4">
             <h4 className="text-base font-semibold font-montserrat">Legal</h4>
             <ul className="space-y-2 text-sm font-montserrat">
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Terms of Service</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Cookie Policy</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Unsubscribe</a></li>
+              <li>
+                <a
+                  href="#"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
+                  Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
+                  Terms of Service
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
+                  Cookie Policy
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
+                  Unsubscribe
+                </a>
+              </li>
             </ul>
           </div>
         </div>

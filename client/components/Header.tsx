@@ -17,9 +17,7 @@ export default function Header() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <Info className="w-3.5 h-3.5 text-yellow-400" />
-              <span className="font-bold font-noto-sans">
-                Travel Advisory:
-              </span>
+              <span className="font-bold font-noto-sans">Travel Advisory:</span>
               <span className="font-noto-sans">
                 Power Bank Usage and Carriage Guidelines
               </span>

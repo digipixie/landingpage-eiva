@@ -17,10 +17,10 @@ export default function Header() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <Info className="w-3.5 h-3.5 text-yellow-400" />
-              <span className="font-bold font-montserrat">
+              <span className="font-bold font-noto-sans">
                 Travel Advisory:
               </span>
-              <span className="font-montserrat">
+              <span className="font-noto-sans">
                 Power Bank Usage and Carriage Guidelines
               </span>
             </div>
@@ -41,21 +41,21 @@ export default function Header() {
                   />
                 </button>
                 <button className="text-white hover:underline ml-2">
-                  <span className="font-montserrat">View all</span>
+                  <span className="font-noto-sans">View all</span>
                 </button>
               </div>
               <div className="flex items-center gap-4">
                 <div className="flex items-center gap-1">
                   <DollarSign className="w-3.5 h-3.5 text-gray-300" />
-                  <span className="text-blue-200 font-montserrat">PHP</span>
+                  <span className="text-blue-200 font-noto-sans">PHP</span>
                   <ChevronDown className="w-3.5 h-3.5 text-gray-300" />
                 </div>
                 <div className="flex items-center gap-1">
                   <Globe className="w-3.5 h-3.5" />
-                  <span className="font-montserrat">English</span>
+                  <span className="font-noto-sans">English</span>
                   <ChevronDown className="w-3.5 h-3.5" />
                 </div>
-                <button className="font-bold font-montserrat hover:underline">
+                <button className="font-bold font-noto-sans hover:underline">
                   Help
                 </button>
               </div>
@@ -81,31 +81,31 @@ export default function Header() {
             <nav className="hidden lg:flex items-center space-x-8">
               <a
                 href="#"
-                className="text-cebu-blue-600 font-bold font-montserrat text-sm hover:text-cebu-blue-500 transition-colors px-6 py-6"
+                className="text-cebu-blue-600 font-bold font-noto-sans text-sm hover:text-cebu-blue-500 transition-colors px-6 py-6"
               >
                 Book
               </a>
               <a
                 href="#"
-                className="text-cebu-blue-600 font-bold font-montserrat text-sm hover:text-cebu-blue-500 transition-colors px-6 py-6"
+                className="text-cebu-blue-600 font-bold font-noto-sans text-sm hover:text-cebu-blue-500 transition-colors px-6 py-6"
               >
                 Manage
               </a>
               <a
                 href="#"
-                className="text-cebu-blue-600 font-bold font-montserrat text-sm hover:text-cebu-blue-500 transition-colors px-6 py-6"
+                className="text-cebu-blue-600 font-bold font-noto-sans text-sm hover:text-cebu-blue-500 transition-colors px-6 py-6"
               >
                 Travel Info
               </a>
               <a
                 href="#"
-                className="text-cebu-blue-600 font-bold font-montserrat text-sm hover:text-cebu-blue-500 transition-colors px-6 py-6"
+                className="text-cebu-blue-600 font-bold font-noto-sans text-sm hover:text-cebu-blue-500 transition-colors px-6 py-6"
               >
                 Explore
               </a>
               <a
                 href="#"
-                className="text-cebu-blue-600 font-bold font-montserrat text-sm hover:text-cebu-blue-500 transition-colors px-6 py-6"
+                className="text-cebu-blue-600 font-bold font-noto-sans text-sm hover:text-cebu-blue-500 transition-colors px-6 py-6"
               >
                 About
               </a>
@@ -113,7 +113,7 @@ export default function Header() {
 
             {/* Right Side Actions */}
             <div className="flex items-center space-x-4">
-              <button className="flex items-center gap-2 text-cebu-blue-600 font-bold font-montserrat text-sm hover:text-cebu-blue-500 transition-colors px-6 py-6">
+              <button className="flex items-center gap-2 text-cebu-blue-600 font-bold font-noto-sans text-sm hover:text-cebu-blue-500 transition-colors px-6 py-6">
                 <User className="w-6 h-6" />
                 Log in
               </button>

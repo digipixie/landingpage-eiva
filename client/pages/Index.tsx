@@ -141,7 +141,7 @@ export default function Index() {
               Affected Booking
             </h2>
 
-            <div className="bg-yellow-50 border-l-4 border-cebu-yellow rounded-lg shadow-xl p-6">
+            <div className="bg-yellow-50 border-l-4 border-[#FFF3CD] rounded-lg shadow-xl p-6">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-lg font-semibold text-gray-800 font-montserrat">
                   Upcoming Flight
